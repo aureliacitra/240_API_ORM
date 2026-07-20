@@ -11,9 +11,10 @@ module.exports = (sequelize, DataTypes) => {
         description: {
             type: DataTypes.STRING,
         },
-        author: {
+              author: {
             type: DataTypes.STRING,
         }
     });
+    
     return Komik;
 };
